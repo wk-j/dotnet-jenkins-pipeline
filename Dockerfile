@@ -1,1 +1,1 @@
-FROM microsoft/dotnet:2.1-sdk-alpine as publish
+FROM microsoft/dotnet:2.1-sdk-alpine
