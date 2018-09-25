@@ -2,8 +2,8 @@
 
 pipeline {
     agent { dockerfile true }
-    states {
-        state("Test") {
+    stages {
+        stage ("Test") {
             steps {
                 sh 'dotnet build src/MyApp/MyApp.csproj'
             }
